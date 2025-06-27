@@ -1,0 +1,16 @@
+LIBRARY ieee;
+
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;
+USE ieee.std_logic_unsigned.all;
+
+ENTITY reset_circuit IS
+	PORT(
+		Reset, Clk		:  IN STD_LOGIC;
+		en_PD, Clr_PC	: OUT STD_LOGIC
+		);
+END reset_circuit;
+
+ARCHITECTURE Behaviour OF reset_circuit IS
+	BEGIN 
+END Behaviour;
